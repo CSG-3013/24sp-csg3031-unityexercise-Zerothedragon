@@ -6,6 +6,12 @@ TagManager:
   tags:
   - CinemachineTarget
   - Trashbag
+  - Pushable
+  - BallTarget
+  - Reward
+  - Key
+  - Trap
+  - Goal
   layers:
   - Default
   - TransparentFX
@@ -14,7 +20,7 @@ TagManager:
   - Water
   - UI
   - 
-  - 
+  - Pushable
   - 
   - 
   - 

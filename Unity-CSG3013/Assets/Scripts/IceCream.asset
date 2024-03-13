@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: IceCream
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Ice
+      Cream","summary":"The Ice Cream can appear and be collected","pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-313.0,"y":-1.0},"guid":"976cba07-4ceb-414d-a6c5-7b1a322eacfa","$version":"A","$type":"Unity.VisualScripting.Update","$id":"9"},{"chainable":false,"member":{"name":"position","parameterTypes":null,"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"input":{"x":30.0,"y":2.0,"z":-3.75,"$type":"UnityEngine.Vector3"}},"position":{"x":46.0,"y":-6.0},"guid":"fd0947d4-f7f7-48a2-912b-c7bfd9891a1c","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"11"},{"defaultValues":{},"position":{"x":-112.0,"y":11.0},"guid":"b02b422b-596e-4cbe-8f87-ac0f72b7c9e8","$version":"A","$type":"Unity.VisualScripting.If","$id":"14"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"wasBallCollected","$type":"System.String"}},"position":{"x":-382.0,"y":129.0},"guid":"f57e6848-7de0-4378-8f6c-70972e59e72c","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"16"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"14"},"destinationKey":"enter","guid":"4a45e5ef-a4cb-4c6f-8a86-cb8c62dc081f","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"ifTrue","destinationUnit":{"$ref":"11"},"destinationKey":"assign","guid":"48cb95e2-3009-46ad-ae4c-38ccf8c59e81","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"value","destinationUnit":{"$ref":"14"},"destinationKey":"condition","guid":"e6629d9a-9d82-453e-889b-3fe73857d972","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
